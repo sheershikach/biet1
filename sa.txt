@@ -1,10 +1,13 @@
+//SWAPPING OF 2 NUMBERS USING 3RD VARIABLE.
 #include<stdio.h>
 int main()
 {
 int a=10, b=20, c;
-printf("A=%d B=%d", a,b);
-c=a+b;
-printf("RESULT=%d",c);
+printf("Before swapping A=%d B=%d", a,b);
+c=a;
+a=b;
+b=c;
+printf("After swapping A=%d B=%d",a,b);
 }
 //same pgm using scanf
 #include<stdio.h>
